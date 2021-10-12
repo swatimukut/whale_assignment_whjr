@@ -88,11 +88,11 @@ function draw() {
       fill("red");
       textFont("Comic Sans MS");
       text("",30,30)
-      text(" Hey kids!!! I know a beautiful whale, her name is Cari. She loves to swim in high sea.",30,60);
+      text(" Hello kids!!! I know a beautiful whale, her name is Cari. She loves to swim in high sea.",30,60);
       text(" Her pink color attracts lot of attention and she enjoys every bit of it.",30,90); 
       text(" To flaunt her shiny rosy skin she breach high up to the sky. But, whale breaching has become a challenge for her nowadays. ",30,120);
-      text(" As now, lately due to human intrusion in the silent clean sea, she has seen lot of trash, spilled oil and one day ",30,150);
-      text(" she even hit the boat. Then the other day she had a narrow escape, when a fishing net got stuck to her tail!", 30,180);
+      text(" As lately due to human intrusion in the silent clean sea, she has seen lot of trash, spilled oil and one day ",30,150);
+      text(" she even hit the ship. Then the other day she had a narrow escape, when a fishing net got stuck to her tail!", 30,180);
       text(" Now you will help little Cari to jump peacefully and enjoy the day!!!", 30,210);
       textSize(40);
       fill("coral")
