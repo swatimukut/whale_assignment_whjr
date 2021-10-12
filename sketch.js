@@ -101,7 +101,7 @@ function draw() {
       text("   For left: Use Left Arrow.",20,410);
       
       whale.addAnimation("running", whale_image);
-      whale.scale=.25;
+      whale.scale=.4;
 
       if(keyDown("enter")&&gameState=="serve"){
         gameState="play";
