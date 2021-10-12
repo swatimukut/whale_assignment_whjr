@@ -61,7 +61,7 @@ function setup() {
   //whale.debug=true
   whale.setCollider("circle",0,0,40);  // To change the collider's shape to circle
  
-  industryWastePipe=createSprite(width-100,320,20,40); // To display the industrial waste draining pipe
+  industryWastePipe=createSprite(width-100,360,20,40); // To display the industrial waste draining pipe
   industryWastePipe.addAnimation("oil",oilPipe);
   industryWastePipe.scale=0.8;
   industryWastePipe.visible=false;
@@ -198,7 +198,7 @@ function draw() {
 function SpawnObstacle(){
 
   if(frameCount%350==0){
-    var obstacle=createSprite(10,height/2-50,20,40);
+    var obstacle=createSprite(10,height/2-30,20,40);
     obstacle.velocityX=5;
     obstacle.scale=0.5;
     obstacle.lifetime=width;
@@ -222,7 +222,7 @@ function SpawnObstacle(){
 function rightSideDanger(){
 
   if(frameCount%300==0){
-    var obstacle2=createSprite(width-150,420,20,40);
+    var obstacle2=createSprite(width-150,460,20,40);
     obstacle2.addImage("oil",oilSpill);
     obstacle2.velocityX=-2;
     obstacle2.scale=0.7;
